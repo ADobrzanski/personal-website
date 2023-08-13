@@ -5,6 +5,7 @@ export default function Home() {
         <main className='m-auto h-full max-w-4xl '>
           <section>
             <h1 className='text-lg font-bold'>
+              {/* eslint-disable-next-line react/no-unescaped-entities */}
               Article Title: What's more a rather lengthy one
             </h1>
             <em>Published: sometime</em> | #list #of #tags
