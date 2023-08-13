@@ -1,9 +1,12 @@
 import './globals.css';
 import type { Metadata } from 'next';
-import { Outfit } from 'next/font/google';
+import { Montserrat } from 'next/font/google';
 import Header from './components/header';
 
-const outfit = Outfit({ subsets: ['latin-ext'], variable: '--font-outfit' });
+const montserrat = Montserrat({
+  subsets: ['latin-ext'],
+  variable: '--font-montserrat',
+});
 
 export const metadata: Metadata = {
   title: 'Adrian Dobrzański',
@@ -18,7 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en' className='h-full'>
-      <body className={`${outfit.className} font-sans h-full`}>
+      <body className={`${montserrat.className} h-full font-sans`}>
         <Header />
         {children}
       </body>

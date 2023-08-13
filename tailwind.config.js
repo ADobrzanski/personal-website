@@ -8,9 +8,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Outfit', 'sans-serif'],
-      }
-    }
+        sans: ['Montserrat', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 };
