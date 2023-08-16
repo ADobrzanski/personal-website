@@ -4,6 +4,7 @@ import { Montserrat } from 'next/font/google';
 import Header from './components/header';
 
 const montserrat = Montserrat({
+  style: ['italic', 'normal'],
   subsets: ['latin-ext'],
   variable: '--font-montserrat',
 });
@@ -21,7 +22,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en' className='h-full'>
-      <body className={`${montserrat.className} h-full font-sans`}>
+      <body
+        className={`${montserrat.className} h-full bg-slate-200 font-sans text-slate-900`}
+      >
         <Header />
         {children}
       </body>
