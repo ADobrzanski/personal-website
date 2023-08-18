@@ -9,7 +9,7 @@ export default function Home() {
 
   return (
     <section className='px-8'>
-      <main className='m-auto h-full max-w-4xl '>
+      <main className='m-auto flex h-full max-w-4xl flex-col gap-12'>
         {postsSortedByDate.map((post, key) => (
           <PostListEntry key={key} post={post} />
         ))}

@@ -27,7 +27,7 @@ export default function Header() {
           </Link>
         </section>
 
-        <div className='bg-slate-500 relative block self-center rounded-full bg-opacity-0 p-2 hover:bg-opacity-10 sm:hidden'>
+        <div className='relative block self-center rounded-full bg-slate-500 bg-opacity-0 p-2 hover:bg-opacity-10 sm:hidden'>
           <HamburgerIcon />
         </div>
       </div>
