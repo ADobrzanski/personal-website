@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang='en' className='h-full'>
       <body
-        className={`${montserrat.className} h-full bg-slate-200 font-sans text-slate-900`}
+        className={`${montserrat.className} flex h-full flex-col gap-8 bg-slate-200 font-sans text-slate-900`}
       >
         <Header />
         {children}

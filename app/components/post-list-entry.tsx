@@ -5,7 +5,7 @@ import TagChip from './tag-chip';
 export default function PostListEntry({ post }: { post: Post }) {
   return (
     <section className='flex flex-col gap-2'>
-      <Link href='/'>
+      <Link href={post.url}>
         <h1 className='text-2xl font-bold decoration-solid decoration-2 underline-offset-2 hover:underline'>
           {post.title}
         </h1>
